@@ -1,0 +1,11 @@
+[project]
+name = "pyplayground"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.13"
+dependencies = [
+    "ipykernel>=7.2.0",
+    "numpy>=2.4.4",
+    "pandas>=3.0.2",
+    "sympy>=1.14.0",
+]
