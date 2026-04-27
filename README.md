@@ -16,8 +16,9 @@ Sync Environment
 uv sync
 ```
 
-## .ipynbの代わりに.pyを用いる方法
+## Using .py instead of.ipynb
+Pycharmは重いし
 1. 以下の2コマンドでJupyter Kernelをインストールする
-  1. `uv add ipykernel` (追加済みであれば`uv sync`)
-  1. `uv run python -m ipykernel install --user --name pyplayground --display-name "pyplayground"`
+    1. `uv add ipykernel` (追加済みであれば`uv sync`)
+    1. `uv run python -m ipykernel install --user --name pyplayground --display-name "pyplayground"`
 1. .pyファイルの中でbreakpointを作りたいときに`# %%`行を挿入
